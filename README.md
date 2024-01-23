@@ -1,6 +1,6 @@
 # Bike-Company-Analysis-using-Hadoop-and-Hive
 
-<img width="582" alt="Cloud Architecture" src="">
+<img width="582" alt="Cloud Architecture" src="https://github.com/eepanc/Bike_Company_Analysis_Using-_Hadoop_and_Hive/blob/main/Architecture.png">
 
 In this project, we will be using a suite of Apache Hadoop tools hosted in GCP Dataproc for the creation of a relational database and analysis of a bike company dataset.
 
@@ -16,7 +16,7 @@ The following Hadoop tools and others were used:
 
 Once the dataset has been cleaned locally using using Pandas, I managed to ingest the data into a MySQL database using DBeaver. This is the ERD created for this dataset:
 
-<img width="892" alt="Data Model" src="">
+<img width="892" alt="Data Model" src="https://github.com/eepanc/Bike_Company_Analysis_Using-_Hadoop_and_Hive/blob/main/Data Model.png">
 
 Now we will deploy the infrastructure on the cloud. Go to GCP and create a new Dataproc cluster, there is no need to create a robust cluster because we will be using a small dataset. The cluster already has Hive installed but we have to install Sqoop manually. 
 
